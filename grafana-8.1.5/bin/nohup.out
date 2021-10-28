@@ -1,0 +1,15 @@
+t=2021-10-10T15:25:24+0000 lvl=info msg="Starting Grafana" logger=server version=8.1.5 commit=c725a4259a branch=HEAD compiled=2021-09-21T08:54:08+0000
+t=2021-10-10T15:25:24+0000 lvl=info msg="Config loaded from" logger=settings file=/rajesh/grafana-8.1.5/conf/defaults.ini
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Home" logger=settings path=/rajesh/grafana-8.1.5
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Data" logger=settings path=/rajesh/grafana-8.1.5/data
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Logs" logger=settings path=/rajesh/grafana-8.1.5/data/log
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Plugins" logger=settings path=/rajesh/grafana-8.1.5/data/plugins
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Provisioning" logger=settings path=/rajesh/grafana-8.1.5/conf/provisioning
+t=2021-10-10T15:25:24+0000 lvl=info msg="App mode production" logger=settings
+t=2021-10-10T15:25:24+0000 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2021-10-10T15:25:24+0000 lvl=info msg="Starting DB migrations" logger=migrator
+t=2021-10-10T15:25:24+0000 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=385 duration=1.500254ms
+t=2021-10-10T15:25:24+0000 lvl=info msg="Validated license token" logger=licensing appURL=http://localhost:3000/ source=disk status=NotFound
+t=2021-10-10T15:25:24+0000 lvl=info msg="Starting plugin search" logger=plugins
+t=2021-10-10T15:25:24+0000 lvl=info msg="Registering plugin" logger=plugins id=input
+t=2021-10-10T15:25:24+0000 lvl=info msg="Registering plugin" logger=plugins id=camptocamp-prometheus-alertmanager-datasource

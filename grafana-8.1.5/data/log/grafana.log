@@ -443,3 +443,57 @@ t=2021-09-28T18:09:29+0530 lvl=info msg="HTTP Server Listen" logger=http.server 
 t=2021-09-28T18:09:29+0530 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=192.168.1.49 time_ms=1 size=0 referer=
 t=2021-09-28T18:09:38+0530 lvl=info msg="Request Completed" logger=context userId=1 orgId=1 uname=admin method=GET path=/api/live/ws status=0 remote_addr=192.168.1.49 time_ms=1 size=0 referer=
 t=2021-09-28T18:10:46+0530 lvl=info msg="Shutdown started" logger=server reason="System signal: interrupt"
+t=2021-10-10T15:25:24+0000 lvl=info msg="Starting Grafana" logger=server version=8.1.5 commit=c725a4259a branch=HEAD compiled=2021-09-21T08:54:08+0000
+t=2021-10-10T15:25:24+0000 lvl=info msg="Config loaded from" logger=settings file=/rajesh/grafana-8.1.5/conf/defaults.ini
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Home" logger=settings path=/rajesh/grafana-8.1.5
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Data" logger=settings path=/rajesh/grafana-8.1.5/data
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Logs" logger=settings path=/rajesh/grafana-8.1.5/data/log
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Plugins" logger=settings path=/rajesh/grafana-8.1.5/data/plugins
+t=2021-10-10T15:25:24+0000 lvl=info msg="Path Provisioning" logger=settings path=/rajesh/grafana-8.1.5/conf/provisioning
+t=2021-10-10T15:25:24+0000 lvl=info msg="App mode production" logger=settings
+t=2021-10-10T15:25:24+0000 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2021-10-10T15:25:24+0000 lvl=info msg="Starting DB migrations" logger=migrator
+t=2021-10-10T15:25:24+0000 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=385 duration=1.500254ms
+t=2021-10-10T15:25:24+0000 lvl=info msg="Validated license token" logger=licensing appURL=http://localhost:3000/ source=disk status=NotFound
+t=2021-10-10T15:25:24+0000 lvl=info msg="Starting plugin search" logger=plugins
+t=2021-10-10T15:25:24+0000 lvl=info msg="Registering plugin" logger=plugins id=input
+t=2021-10-10T15:25:24+0000 lvl=info msg="Registering plugin" logger=plugins id=camptocamp-prometheus-alertmanager-datasource
+t=2021-10-12T04:47:00+0000 lvl=info msg="Starting Grafana" logger=server version=8.1.5 commit=c725a4259a branch=HEAD compiled=2021-09-21T08:54:08+0000
+t=2021-10-12T04:47:00+0000 lvl=info msg="Config loaded from" logger=settings file=/rajesh/grafana-8.1.5/conf/defaults.ini
+t=2021-10-12T04:47:00+0000 lvl=info msg="Path Home" logger=settings path=/rajesh/grafana-8.1.5
+t=2021-10-12T04:47:00+0000 lvl=info msg="Path Data" logger=settings path=/rajesh/grafana-8.1.5/data
+t=2021-10-12T04:47:00+0000 lvl=info msg="Path Logs" logger=settings path=/rajesh/grafana-8.1.5/data/log
+t=2021-10-12T04:47:00+0000 lvl=info msg="Path Plugins" logger=settings path=/rajesh/grafana-8.1.5/data/plugins
+t=2021-10-12T04:47:00+0000 lvl=info msg="Path Provisioning" logger=settings path=/rajesh/grafana-8.1.5/conf/provisioning
+t=2021-10-12T04:47:00+0000 lvl=info msg="App mode production" logger=settings
+t=2021-10-12T04:47:00+0000 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2021-10-12T04:47:00+0000 lvl=info msg="Starting DB migrations" logger=migrator
+t=2021-10-12T04:47:00+0000 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=385 duration=1.447418ms
+t=2021-10-12T04:47:00+0000 lvl=info msg="Validated license token" logger=licensing appURL=http://localhost:3000/ source=disk status=NotFound
+t=2021-10-12T04:47:00+0000 lvl=info msg="Starting plugin search" logger=plugins
+t=2021-10-12T04:47:00+0000 lvl=info msg="Registering plugin" logger=plugins id=camptocamp-prometheus-alertmanager-datasource
+t=2021-10-12T04:47:00+0000 lvl=info msg="Registering plugin" logger=plugins id=input
+t=2021-10-12T04:47:00+0000 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2021-10-12T04:47:00+0000 lvl=warn msg="Scheduling and sending of reports disabled, SMTP is not configured and enabled. Configure SMTP to enable." logger=report
+t=2021-10-12T04:47:00+0000 lvl=eror msg="Stopped HTTPServer" logger=server reason="failed to open listener on address 0.0.0.0:3000: listen tcp 0.0.0.0:3000: bind: address already in use"
+t=2021-10-12T04:47:00+0000 lvl=eror msg="error during daily rollup" logger=analytics.summaries err="got error when listing dashboards: context canceled"
+t=2021-10-12T04:47:00+0000 lvl=eror msg="Server shutdown" logger=server error="HTTPServer run error: failed to open listener on address 0.0.0.0:3000: listen tcp 0.0.0.0:3000: bind: address already in use"
+t=2021-10-12T04:50:32+0000 lvl=info msg="Starting Grafana" logger=server version=8.1.5 commit=c725a4259a branch=HEAD compiled=2021-09-21T08:54:08+0000
+t=2021-10-12T04:50:32+0000 lvl=info msg="Config loaded from" logger=settings file=/rajesh/grafana-8.1.5/conf/defaults.ini
+t=2021-10-12T04:50:32+0000 lvl=info msg="Path Home" logger=settings path=/rajesh/grafana-8.1.5
+t=2021-10-12T04:50:32+0000 lvl=info msg="Path Data" logger=settings path=/rajesh/grafana-8.1.5/data
+t=2021-10-12T04:50:32+0000 lvl=info msg="Path Logs" logger=settings path=/rajesh/grafana-8.1.5/data/log
+t=2021-10-12T04:50:32+0000 lvl=info msg="Path Plugins" logger=settings path=/rajesh/grafana-8.1.5/data/plugins
+t=2021-10-12T04:50:32+0000 lvl=info msg="Path Provisioning" logger=settings path=/rajesh/grafana-8.1.5/conf/provisioning
+t=2021-10-12T04:50:32+0000 lvl=info msg="App mode production" logger=settings
+t=2021-10-12T04:50:32+0000 lvl=info msg="Connecting to DB" logger=sqlstore dbtype=sqlite3
+t=2021-10-12T04:50:32+0000 lvl=info msg="Starting DB migrations" logger=migrator
+t=2021-10-12T04:50:32+0000 lvl=info msg="migrations completed" logger=migrator performed=0 skipped=385 duration=1.47108ms
+t=2021-10-12T04:50:32+0000 lvl=info msg="Validated license token" logger=licensing appURL=http://localhost:3000/ source=disk status=NotFound
+t=2021-10-12T04:50:32+0000 lvl=info msg="Starting plugin search" logger=plugins
+t=2021-10-12T04:50:32+0000 lvl=info msg="Registering plugin" logger=plugins id=camptocamp-prometheus-alertmanager-datasource
+t=2021-10-12T04:50:32+0000 lvl=info msg="Registering plugin" logger=plugins id=input
+t=2021-10-12T04:50:32+0000 lvl=info msg="Live Push Gateway initialization" logger=live.push_http
+t=2021-10-12T04:50:32+0000 lvl=warn msg="Scheduling and sending of reports disabled, SMTP is not configured and enabled. Configure SMTP to enable." logger=report
+t=2021-10-12T04:50:32+0000 lvl=eror msg="Stopped HTTPServer" logger=server reason="failed to open listener on address 0.0.0.0:3000: listen tcp 0.0.0.0:3000: bind: address already in use"
+t=2021-10-12T04:50:33+0000 lvl=eror msg="Server shutdown" logger=server error="HTTPServer run error: failed to open listener on address 0.0.0.0:3000: listen tcp 0.0.0.0:3000: bind: address already in use"
